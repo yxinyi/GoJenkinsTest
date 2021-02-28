@@ -12,6 +12,6 @@ func f1(in chan int) {
 func main() {
 	out := make(chan int)
 	go f1(out)
-	out <- 12312312321
+	out <- 123123123
 	time.Sleep(time.Second * 1)
 }
